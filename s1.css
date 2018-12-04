@@ -1,0 +1,21 @@
+p {
+
+	color: #FFFFCC;
+	font-size: 200%;
+	text-align:center;
+	font-weight: bold;
+	}
+
+body {
+    	background:  url(file:///home/lena/%D0%A0%D0%B0%D0%B1%D0%BE%D1%87%D0%B8%D0%B9%20%D1%81%D1%82%D0%BE%D0%BB/tppo/6.jpg);
+	background-size: 100%;
+	background-repeat: repeat;
+	padding: 5px;
+	min-width:1000px;
+	}
+	
+h1,h2 {
+	color: #FFFFCC;
+	text-align:center;
+	font-weight: bold;
+	}
