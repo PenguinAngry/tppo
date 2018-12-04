@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Enlargeyourvocabulary</title>
+		<link rel="stylesheet" href="s.css" type="text/css">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+		
+		<link rel="shortcut icon" href="https://ic.pics.livejournal.com/slavaurban/83699447/68265/68265_original.jpg" type="image/x-icon">
+		<style>
+		.dark {
+		    text-shadow: red 0 0 10px; /* Свечение красного цвета */	
+		}
+		</style>
+	</head>
+	<body>
+		
+		<header class="dark">
+    			<h1> Добро пожаловать в Enlargeyourvocabulary! </h1>
+		</header>
+	
+<form name="login-form" class="login-form" action="" method="post">
+
+    <div class="header">
+		<h1>Авторизация</h1>
+		<span>Введите ваши регистрационные данные для входа в ваш личный кабинет. </span>
+    </div>
+
+    <div class="content">
+		<input name="username" type="text" class="input username" value="Логин" onfocus="this.value=''" />
+		<input name="password" type="password" class="input password" value="Пароль" onfocus="this.value=''" />
+    </div>
+
+    <div class="footer">
+		<input type="submit" name="submit" value="ВОЙТИ" class="button" />
+		<input type="submit" name="submit" value="Регистрация" class="register" />
+    </div>
+
+</form>
+</div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$(".username").focus(function() {
+		$(".user-icon").css("left","-48px");
+	});
+	$(".username").blur(function() {
+		$(".user-icon").css("left","0px");
+	});
+	
+	$(".password").focus(function() {
+		$(".pass-icon").css("left","-48px");
+	});
+	$(".password").blur(function() {
+		$(".pass-icon").css("left","0px");
+	});
+});
+</script>
+	<h2>Enlargeyourvocabulary - веб-приложение для увеличения твоего словарного запаса.</h2> 
+</body>
+</html>
+	</body>
+</html>
